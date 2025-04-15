@@ -86,8 +86,6 @@ nano docker-compose.yaml
 * `CHROME_CLI`: The main page when you open browser
 * `ports`: You can replace `3010` & `3011` if they have conflict
 ```
----
-  version: "3.8"
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
@@ -95,12 +93,12 @@ services:
     security_opt:
       - seccomp:unconfined # optional
     environment:
-      - HTTP_USER=kida       # Correct username variable
-      - HTTP_PASSWORD=kida       # Correct password variable
+      - HTTP_USER=kida
+      - HTTP_PASSWORD=kida
       - PUID=1000
       - PGID=1000
       - TZ=America/Los_Angeles
-      - CHROME_CLI=https://www.google.com # optional
+      - CHROME_CLI=https://www.google.com
     volumes:
       - /root/chromium/config:/config
     ports:
@@ -108,6 +106,7 @@ services:
       - 3011:3001
     shm_size: "1gb"
     restart: unless-stopped
+
 ```
 > To save and exit: `Ctrl+X+Y+Enter` 
 
