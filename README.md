@@ -118,7 +118,7 @@ docker compose up -d
 * http://yourIPaddress:3010/
 * https://Server_IP:3011/
 
----
+-------------------------------- STOP HERE FOR CHROMIUM BROWSER ----------------------------------------
 
 # ⭐ Install Proxy on Chromium
 ## 1) Buy Proxy
