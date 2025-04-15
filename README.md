@@ -55,6 +55,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 docker --version
 ```
 
+```bash
+screen -S huddle01
+```
+
+
 ## Timezone check
 ```
 realpath --relative-to /usr/share/zoneinfo /etc/localtime
