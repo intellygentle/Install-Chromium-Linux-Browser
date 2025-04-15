@@ -87,7 +87,6 @@ nano docker-compose.yaml
 * `ports`: You can replace `3010` & `3011` if they have conflict
 ```
 ---
-services:
   version: "3.8"
 services:
   chromium:
