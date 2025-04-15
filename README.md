@@ -111,9 +111,7 @@ services:
 > To save and exit: `Ctrl+X+Y+Enter` 
 
 ## Run Chromium
-```console
-cd $HOME && cd chromium
-
+```
 docker compose up -d
 ```
 **The application can be accessed by going to one of these addresses in your local PC browser**
