@@ -115,7 +115,7 @@ services:
 docker compose up -d
 ```
 **The application can be accessed by going to one of these addresses in your local PC browser**
-* http://Server_IP:3010/
+* http://yourIPaddress:3010/
 * https://Server_IP:3011/
 
 ---
