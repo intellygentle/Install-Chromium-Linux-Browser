@@ -4,9 +4,11 @@ Chromium is an open-source browser project that aims to build a safer, faster, a
 * You can easily run your Node Extensions 
 
 ## Install Docker
-```console
+```bash
 sudo apt update -y && sudo apt upgrade -y
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
+
 
 ```bash
 sudo apt-get update
