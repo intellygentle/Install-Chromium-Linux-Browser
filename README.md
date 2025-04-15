@@ -69,6 +69,9 @@ realpath --relative-to /usr/share/zoneinfo /etc/localtime
 **1. Create directory**
 ```
 mkdir chromium
+```
+
+```bash
 cd chromium
 ```
 
