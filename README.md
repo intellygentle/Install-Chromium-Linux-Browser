@@ -93,8 +93,8 @@ services:
     security_opt:
       - seccomp:unconfined # optional
     environment:
-      - HTTP_USER=kida
-      - HTTP_PASSWORD=kida
+      - HTTP_USER=yourUsername
+      - HTTP_PASSWORD=yourPassword
       - PUID=1000
       - PGID=1000
       - TZ=America/Los_Angeles
